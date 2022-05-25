@@ -201,7 +201,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }, ghost.speed)
   }
 
-  //The functions below give the "you won" and "game over" alerts at the end of the game//
+  //The functions below give the "you won" and "game over" alerts at the end of the game// 
 
   function checkForGameOver() {
     if (squares[pacmanCurrentIndex].classList.contains('ghost') &&
