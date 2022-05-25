@@ -1,0 +1,73 @@
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 560px;
+    height: 560px;
+    border: hotpink;
+}
+  
+.grid div {
+    width: 20px;
+    height: 20px;
+}
+
+.pac-dot {
+    background-color: pink;   
+    border: 5px solid white;
+    box-sizing: border-box;
+}
+
+.wall {
+    background-color: hot pink;
+}
+
+.power-pellet {
+    background-color: hotpink;
+    border-radius: 10px;
+}
+
+.ghost1 {
+    background-color: pink;
+}
+
+.ghost2 {
+    background-color: pink;
+}
+
+.ghost3 {
+    background-color: pink;
+}
+
+.ghost4 {
+    background-color: pink;     
+}
+
+.scared-ghost {
+    background-color: pink;
+}
+
+body{
+    margin:0;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height: 100vh;
+}
+
+.pac-man{
+    width: 0;
+    height: 0;
+    border-top: 15px solid red;
+    border-left: 15px solid red;
+    border-bottom: 15px solid red;
+    border-right: 15px solid transparent;
+    border-radius: 50%;
+
+} 
